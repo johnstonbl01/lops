@@ -1,0 +1,27 @@
+{
+  "name": "lops",
+  "version": "0.0.1",
+  "description": "Operations logging with Bunyan and Express",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ./lib"
+  },
+  "keywords": [
+    "ops",
+    "express",
+    "logging",
+    "bunyan"
+  ],
+  "author": "Blake Johnston",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bunyan": "^1.8.12",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
